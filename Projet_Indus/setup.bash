@@ -8,6 +8,14 @@ fi
 source /opt/ros/humble/setup.bash
 # ----------
 
+# UR ---
+source /home/ur_ros_driver/install/setup.bash
+# ----------
+
+# projet_indus ---
+source /home/ros2_ws/install/setup.bash
+# ----------
+
 # for Rviz ---
 export LIBGL_ALWAYS_SOFTWARE=1
 # ----------
